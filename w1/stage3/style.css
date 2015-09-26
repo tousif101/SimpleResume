@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+header h1 {
+    text-align: center;
+    font-family: "Roboto";
+    border-bottom: 2px solid #003366;
+    margin-top: 0;
+    vertical-align: middle;
+
+}
+#logo{
+    padding: 0;
+    margin: 0;
+    right: 0;
+}
+
+header {
+    padding: 0;
+    margin: 1px;
+    z-index: 99;
+
+}
+
+header img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 105px;
+    width: 140px;
+}
+
+body {
+    background-color: #CCCCCC;
+    font-family: "Roboto";
+
+}
+
+#pic {
+    text-align: center;
+    float: right;
+
+}
+
+#pic img {
+    height: 80%;
+    width: 80%;
+    opacity: .5;
+}
+
+#pic img:hover {
+    opacity: .99;
+}
+
+#current {
+    background-color: #CCCCCC;
+}
+
+#menu {
+    height: 30%;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#menu ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+#menu li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #003366;
+    padding: 8px 8px 8px 8px;
+}
+
+#menu a:hover {
+    color: #F90;
+    background-color: #FFF;
+}
+
+#Me {
+    text-align: left;
+    font-family: "Roboto", Tahoma, Geneva;
+    float: left;
+    width: 60%;
+}
+
+#content {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#bodies {
+    text-align: left;
+    padding: 10px 80px 30px 80px;
+
+}
+
+#AboutMeTitle {
+    text-align: center;
+}
+
+#box {
+    text-align: center
+}
+
+mark {
+    background-color: yellow;
+    color: black;
+}
+
+#thumbnail {
+    width: 256px;
+    height: 190px;
+}
+
+figcaption{
+    font-size: small;
+}
+
+#content{
+    opacity: 0.5;
+}
